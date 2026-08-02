@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>德国 Python / 数据工程师求职项目</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1f2328; --muted:#656d76; --border:#d0d7de;
+    --accent:#0969da; --accent-bg:#ddf4ff; --code-bg:#f6f8fa;
+    --card:#f6f8fa; --green:#1a7f37;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,"PingFang SC","Microsoft YaHei",sans-serif;
+       color:var(--fg);background:var(--bg);line-height:1.6;padding:0 0 60px}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:980px;margin:0 auto;padding:0 20px}
+
+  /* Hero */
+  .hero{background:linear-gradient(135deg,#0b3d91,#0969da);color:#fff;padding:48px 20px 40px;margin-bottom:32px}
+  .hero .wrap{padding:0 20px}
+  .hero h1{font-size:30px;font-weight:700;margin-bottom:8px}
+  .hero p{font-size:16px;opacity:.92;max-width:680px}
+  .hero .meta{margin-top:18px;display:flex;gap:10px;flex-wrap:wrap}
+  .badge{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);
+         padding:4px 12px;border-radius:20px;font-size:13px}
+  .hero a.btn{display:inline-block;margin-top:18px;background:#fff;color:#0b3d91;
+         font-weight:600;padding:9px 18px;border-radius:8px;font-size:14px}
+
+  h2{font-size:22px;margin:38px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+  h3{font-size:17px;margin:22px 0 8px}
+  p{margin:10px 0;color:#333}
+  .muted{color:var(--muted)}
+
+  /* Tree */
+  .tree{background:var(--code-bg);border:1px solid var(--border);border-radius:8px;
+        padding:18px 22px;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;
+        font-size:13px;line-height:1.7;overflow-x:auto}
+  .tree .dir{color:var(--accent);font-weight:600}
+  .tree .cmt{color:var(--muted)}
+
+  /* Cards */
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:14px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px}
+  .card h4{font-size:15px;margin-bottom:6px;color:var(--accent)}
+  .card p{font-size:13px;color:var(--muted);margin:0}
+
+  /* Table */
+  table{width:100%;border-collapse:collapse;margin-top:14px;font-size:14px}
+  th,td{border:1px solid var(--border);padding:10px 12px;text-align:left;vertical-align:top}
+  th{background:var(--code-bg);font-weight:600}
+  tr:nth-child(even) td{background:#fbfcfd}
+
+  /* Code */
+  pre{background:var(--code-bg);border:1px solid var(--border);border-radius:8px;
+      padding:14px 16px;overflow-x:auto;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;
+      font-size:13px;line-height:1.6;margin:12px 0}
+  code{background:var(--code-bg);padding:2px 6px;border-radius:4px;font-size:13px;
+       font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+
+  .note{background:#fff8c5;border:1px solid #d4a72c66;border-radius:8px;padding:14px 16px;margin:16px 0;font-size:14px}
+  .note b{color:#7d4e00}
+  .lock{color:var(--green);font-weight:600}
+  footer{margin-top:46px;padding-top:20px;border-top:1px solid var(--border);
+         text-align:center;color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>德国 Python / 数据工程师求职项目</h1>
+    <p>系统化准备赴德国从事 Python / 数据工程师的求职材料与签证规划，持续跟踪申请进度。一套「文档 + 脚本 + 数据」的求职作战体系。</p>
+    <div class="meta">
+      <span class="badge">🎯 目标：数据工程师</span>
+      <span class="badge">📍 德国</span>
+      <span class="badge">🌐 公开仓库</span>
+    </div>
+    <a class="btn" href="https://github.com/Wadesha/Germany_job" target="_blank" rel="noopener">查看 GitHub 仓库 →</a>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <h2>📁 目录结构（架构）</h2>
+  <div class="tree">
+<span class="dir">Germany_job/</span><br>
+├── <span class="dir">README.md</span>              <span class="cmt"># 架构说明 + 操作方法</span><br>
+├── <span class="dir">.gitignore</span>            <span class="cmt"># 忽略依赖/隐私/缓存</span><br>
+├── <span class="dir">docs/</span>                 <span class="cmt"># 研究、规划、分析文档</span><br>
+│   ├── <span class="dir">planning/</span>         <span class="cmt"># 实施计划 / 执行手册 / 进度报告</span><br>
+│   ├── <span class="dir">visa/</span>             <span class="cmt"># 工作签证 / 机会卡 / 技能要求</span><br>
+│   ├── <span class="dir">job_search/</span>       <span class="cmt"># 搜索方法 / 关键词 / 申请指南</span><br>
+│   ├── <span class="dir">positions/</span>        <span class="cmt"># 4 个目标岗位深度分析</span><br>
+│   └── <span class="dir">data_reports/</span>     <span class="cmt"># 数据采集与市场分析</span><br>
+├── <span class="dir">data/</span>                 <span class="cmt"># 职位市场原始数据</span><br>
+├── <span class="dir">resume/</span>               <span class="cmt"># 简历模板(中/英/德)</span><br>
+├── <span class="dir">cover_letter/</span>         <span class="cmt"># 求职信模板</span><br>
+├── <span class="dir">scripts/</span>              <span class="cmt"># 简历生成脚本</span><br>
+└── <span class="dir">private/</span>              <span class="cmt"># 🔒 本地隐私文件(不传远程)</span>
+  </div>
+
+  <h2>🧭 模块说明</h2>
+  <div class="grid">
+    <div class="card"><h4>docs/planning</h4><p>求职战略与执行节奏：六阶段计划、每日/每周检查清单</p></div>
+    <div class="card"><h4>docs/visa</h4><p>工作签证 / 机会卡政策与技能要求对标</p></div>
+    <div class="card"><h4>docs/job_search</h4><p>搜职位的方法、关键词、申请流程</p></div>
+    <div class="card"><h4>docs/positions</h4><p>4 个目标岗位任职要求拆解</p></div>
+    <div class="card"><h4>docs/data_reports</h4><p>数据采集过程与市场分析结论</p></div>
+    <div class="card"><h4>data/</h4><p>职位市场结构化数据（CSV/JSON/XLSX）</p></div>
+    <div class="card"><h4>resume/ · cover_letter/</h4><p>简历与求职信模板，投递前定制</p></div>
+    <div class="card"><h4>scripts/</h4><p>一键生成多语言简历的 Node.js 脚本</p></div>
+  </div>
+
+  <h2>🛠 操作方法</h2>
+
+  <h3>1. 生成简历（Node.js 脚本）</h3>
+  <pre>cd scripts
+npm install          # 安装 docx 依赖（首次）
+node generate_resume.js          # 生成德语简历
+node generate_sample_resume.js   # 生成样例简历（含示例背景）</pre>
+
+  <h3>2. 更新职位市场数据</h3>
+  <p>编辑 <code>data/</code> 下的 <code>jobs.csv</code> 或 <code>market_data_2026.*</code>，重新跑采集脚本后同步更新 <code>docs/data_reports/</code> 中的分析报告。</p>
+
+  <h3>3. 走求职流程</h3>
+  <table>
+    <tr><th>步骤</th><th>对应文档</th></tr>
+    <tr><td>规划</td><td><code>docs/planning/job_hunt_plan.md</code></td></tr>
+    <tr><td>执行</td><td><code>docs/planning/execution_handbook.md</code></td></tr>
+    <tr><td>投岗位</td><td><code>docs/positions/</code> + <code>resume/</code> + <code>cover_letter/</code></td></tr>
+    <tr><td>查进度</td><td>本地 <code>private/求职进度跟踪.xlsx</code></td></tr>
+  </table>
+
+  <h3>4. 办签证</h3>
+  <p>常规工作签证：<code>docs/visa/work_visa_guide.txt</code> ｜ 机会卡：<code>opportunity_card_guide.txt</code> ｜ 技能对标：<code>skill_requirements.txt</code></p>
+
+  <div class="note">
+    <b>🔒 隐私说明：</b><span class="lock">private/</span> 目录存放含真实个人信息的文件（样例简历含 PwC / 阿里背景、求职进度跟踪表），已在 <code>.gitignore</code> 中排除，<b>不会上传到 GitHub</b>。仓库内仅保留模板与生成脚本，真实材料在本地维护。
+  </div>
+
+  <h2>🧰 技术栈</h2>
+  <table>
+    <tr><th>类别</th><th>技术</th></tr>
+    <tr><td>文档体系</td><td>Markdown / 纯文本（零依赖，易维护）</td></tr>
+    <tr><td>简历生成</td><td>Node.js + <code>docx</code> 库（scripts/）</td></tr>
+    <tr><td>数据</td><td>CSV / JSON / Excel</td></tr>
+  </table>
+
+  <footer>
+    仓库：<a href="https://github.com/Wadesha/Germany_job" target="_blank" rel="noopener">Wadesha/Germany_job</a>（公开） · 本页由项目文档自动 HTML 化生成
+  </footer>
+
+</div>
+</body>
+</html>
