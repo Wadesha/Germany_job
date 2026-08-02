@@ -1,0 +1,19 @@
+# Dependencies (managed locally, not tracked)
+node_modules/
+
+# Local private files — contain REAL personal info (sample resumes, progress tracker).
+# NOT uploaded to remote. Keep on local machine only.
+private/
+
+# Upload cache
+.uploads/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.log
+
+# Safety net: never commit anything that looks like a secret token
+*ghp_*
+*.env
+.env

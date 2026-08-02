@@ -1,0 +1,299 @@
+{
+  "metadata": {
+    "title": "德国求职市场数据 2026 / Germany Job Market Data 2026",
+    "generated_date": "2026-06-01",
+    "data_source": "Web Search",
+    "description": "德国数据工程师求职市场最新数据，包含薪资、签证政策、技能需求等",
+    "language": "zh-CN/de-DE"
+  },
+  "salary_data": {
+    "title": "薪资数据 / Gehaltsdaten",
+    "year": "2025-2026",
+    "national_average": {
+      "annual_salary_2026": {
+        "value": 53000,
+        "currency": "EUR",
+        "growth_rate": "4.5%",
+        "note": "较2025年增长4.5%"
+      },
+      "median_salary_2025": {
+        "value": 45800,
+        "currency": "EUR",
+        "type": "税前薪资中位数"
+      },
+      "average_salary_2025": {
+        "value": 52300,
+        "currency": "EUR",
+        "type": "税前薪资平均值"
+      }
+    },
+    "city_comparison": {
+      "berlin": {
+        "monthly_salary": 5500,
+        "currency": "EUR",
+        "characteristics": "东部经济中心，薪资高于多数东部城市",
+        "annual_estimate": 66000
+      },
+      "munich": {
+        "monthly_salary": 6000,
+        "currency": "EUR",
+        "characteristics": "科技与制造业发达，薪资较高",
+        "annual_estimate": 72000
+      },
+      "frankfurt": {
+        "monthly_salary": 5800,
+        "currency": "EUR",
+        "characteristics": "金融中心，薪资偏高",
+        "annual_estimate": 69600,
+        "average_annual_2026": 49759
+      },
+      "stuttgart": {
+        "engineer_average_annual": 80000,
+        "currency": "EUR",
+        "characteristics": "工程师薪资最高城市"
+      }
+    },
+    "data_engineer": {
+      "salary_range": {
+        "min": 60000,
+        "max": 90000,
+        "currency": "EUR",
+        "note": "根据经验和城市不同"
+      },
+      "levels": {
+        "junior": "45000-55000 EUR",
+        "mid": "60000-75000 EUR",
+        "senior": "75000-90000 EUR"
+      }
+    },
+    "minimum_wage": {
+      "frankfurt_2026": {
+        "annual": 25932,
+        "currency": "EUR"
+      }
+    }
+  },
+  "visa_policy": {
+    "title": "签证政策 / Visumpolitik",
+    "chancenkarte": {
+      "name": "机会卡 / Chancenkarte",
+      "type": "积分制找工作签证",
+      "validity": {
+        "initial": "1年",
+        "renewable": "可续签至2年"
+      },
+      "requirements": {
+        "minimum_points": 6,
+        "language": {
+          "ielts": "6.0分及以上",
+          "german": "A1或B1"
+        },
+        "financial_proof": "生计有保障"
+      },
+      "scoring_system": {
+        "education": {
+          "doctorate": 4,
+          "master": 3,
+          "bachelor": 2
+        },
+        "german_language": {
+          "c1": 3,
+          "b2": 2,
+          "b1": 1
+        },
+        "work_experience": {
+          "5_plus_years": 3,
+          "3_to_5_years": 2,
+          "1_to_3_years": 1
+        },
+        "age": {
+          "under_35": 2,
+          "35_to_40": 1
+        },
+        "stem_field": 3
+      }
+    },
+    "eu_blue_card": {
+      "name": "欧盟蓝卡 / EU Blue Card",
+      "effective_date": "2026-01-01",
+      "salary_thresholds": {
+        "standard_occupations": {
+          "annual": 50700,
+          "currency": "EUR",
+          "type": "标准职业"
+        },
+        "shortage_occupations": {
+          "annual": 45934.20,
+          "currency": "EUR",
+          "type": "紧缺职业（IT属于此类）"
+        }
+      },
+      "requirements": {
+        "work_contract": "至少6个月",
+        "it_specialist_alternative": {
+          "education": "可无大学学历",
+          "experience": "过去7年内至少3年IT工作经验",
+          "proof": "能够通过项目、合同、推荐信等方式证明技能达到高校教育水平"
+        }
+      },
+      "important_notes": [
+        "薪资差额不存在通融空间",
+        "哪怕只低几十欧元，申请都会被直接否定"
+      ]
+    }
+  },
+  "market_demand": {
+    "title": "市场需求 / Marktnachfrage",
+    "it_talent_gap": {
+      "shortage": 130000,
+      "unit": "人",
+      "period": "2025-2026",
+      "source": "网易新闻"
+    },
+    "aws_investment": {
+      "amount": 78,
+      "currency": "亿欧元",
+      "period": "2025-2040",
+      "jobs_created": {
+        "annual": 2800,
+        "type": "直接和间接岗位"
+      }
+    },
+    "data_growth": {
+      "enterprise_data_growth_rate": "40%",
+      "period": "年均",
+      "note": "企业数据量年均增长40%"
+    }
+  },
+  "skills_demand": {
+    "title": "技能需求 / Fähigkeitsanforderungen",
+    "core_skills": {
+      "required": [
+        {
+          "skill": "Python",
+          "level": "精通",
+          "category": "编程语言"
+        },
+        {
+          "skill": "PySpark",
+          "level": "精通",
+          "category": "大数据处理"
+        },
+        {
+          "skill": "SQL",
+          "level": "精通",
+          "category": "数据库"
+        },
+        {
+          "skill": "AWS Ecosystem",
+          "level": "精通",
+          "details": "S3/Glue/Athena等",
+          "category": "云平台"
+        }
+      ],
+      "familiar": [
+        {
+          "skill": "Apache Airflow",
+          "level": "熟悉",
+          "category": "工作流编排"
+        },
+        {
+          "skill": "Apache Iceberg",
+          "level": "熟悉",
+          "category": "数据湖"
+        }
+      ]
+    },
+    "tools": {
+      "proficient": [
+        {
+          "tool": "Hadoop",
+          "category": "大数据"
+        },
+        {
+          "tool": "Spark",
+          "category": "大数据处理"
+        }
+      ]
+    },
+    "cloud_platforms": [
+      {
+        "platform": "AWS",
+        "level": "掌握"
+      },
+      {
+        "platform": "阿里云",
+        "level": "了解"
+      }
+    ]
+  },
+  "city_profiles": {
+    "title": "城市概况 / Stadtprofile",
+    "berlin": {
+      "name": "柏林",
+      "name_de": "Berlin",
+      "characteristics": "东部经济中心",
+      "salary_level": "高于多数东部城市",
+      "industry_focus": ["科技", "创业"]
+    },
+    "munich": {
+      "name": "慕尼黑",
+      "name_de": "München",
+      "characteristics": "科技与制造业发达",
+      "salary_level": "较高",
+      "industry_focus": ["汽车", "高科技", "制造业"]
+    },
+    "frankfurt": {
+      "name": "法兰克福",
+      "name_de": "Frankfurt",
+      "characteristics": "金融中心",
+      "salary_level": "偏高",
+      "industry_focus": ["金融", "银行", "保险"]
+    },
+    "stuttgart": {
+      "name": "斯图加特",
+      "name_de": "Stuttgart",
+      "characteristics": "工程师薪资最高城市",
+      "average_engineer_salary": 80000,
+      "currency": "EUR",
+      "industry_focus": ["汽车", "工程", "制造业"]
+    }
+  },
+  "data_sources": [
+    {
+      "name": "StepStone薪资报告",
+      "url": "stepstone.de",
+      "type": "官方报告"
+    },
+    {
+      "name": "德国联邦内政部",
+      "url": "bmi.bund.de",
+      "type": "官方政策"
+    },
+    {
+      "name": "搜狐网",
+      "url": "sohu.com",
+      "type": "新闻"
+    },
+    {
+      "name": "网易新闻",
+      "url": "163.com",
+      "type": "新闻"
+    },
+    {
+      "name": "BOSS直聘",
+      "url": "zhipin.com",
+      "type": "招聘平台"
+    },
+    {
+      "name": "新东方前途出国",
+      "url": "xdf.cn",
+      "type": "教育咨询"
+    }
+  ],
+  "update_info": {
+    "last_updated": "2026-06-01",
+    "update_frequency": "建议每月更新",
+    "next_scheduled_update": "2026-07-01"
+  }
+}

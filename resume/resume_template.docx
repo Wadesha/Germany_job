@@ -1,0 +1,96 @@
+Python数据工程师简历模板 - 德国求职
+
+个人信息
+[你的全名]
+Python数据工程师
+
+邮箱: your.email@example.com
+电话: +86 138-XXXX-XXXX
+地址: [当前城市], [国家]
+LinkedIn: linkedin.com/in/yourprofile
+GitHub: github.com/yourusername
+
+语言能力:
+- 中文: 母语
+- 英语: 流利 (IELTS 7.5 / TOEFL 105)
+- 德语: 基础 (A1/A2水平，正在学习中)
+
+专业摘要
+拥有[X]年经验的Python数据工程师，专注于构建可扩展的数据管道和ETL系统。擅长使用Python生态系统（Pandas, NumPy, PySpark）处理大规模数据集，具备AWS/Azure云平台经验，熟悉数据仓库设计和机器学习工作流。寻求在德国科技公司担任数据工程师职位，为数据驱动决策提供技术支持。
+
+技术技能
+编程语言:
+- Python (高级) - Pandas, NumPy, Scikit-learn, TensorFlow
+- SQL (高级) - 复杂查询优化，存储过程
+- Bash/Shell (中级) - 自动化脚本
+
+数据工程工具:
+- ETL/ELT: Apache Airflow, Luigi, dbt
+- 大数据: Apache Spark, Hadoop, Hive
+- 数据库: PostgreSQL, MySQL, MongoDB, Redis
+
+云平台:
+- AWS: S3, Redshift, Glue, Lambda, EMR
+- Azure: Data Factory, Synapse Analytics, Databricks
+- 容器化: Docker, Kubernetes
+
+开发工具:
+- 版本控制: Git, GitHub/GitLab
+- 项目管理: Jira, Confluence
+- 监控: Grafana, Prometheus
+
+工作经历
+
+高级数据工程师 | [当前公司名称] | [城市] | [起始年月] - 至今
+• 设计并实施可扩展的数据管道，每日处理超过1TB数据，支持业务决策
+• 使用Python和Apache Airflow开发ETL工作流，数据处理效率提升40%
+• 构建数据仓库解决方案，整合多个数据源，提供统一的数据视图
+• 与数据科学家合作部署机器学习模型到生产环境
+• 优化SQL查询性能，将报告生成时间从小时级减少到分钟级
+
+技术栈: Python, Pandas, Airflow, PostgreSQL, AWS Redshift, Docker
+
+数据工程师 | [前公司名称] | [城市] | [起始年月] - [结束年月]
+• 负责构建和维护公司核心数据基础设施
+• 开发实时数据流处理系统，使用Kafka和Spark Streaming
+• 实施数据质量监控框架，确保数据准确性和完整性
+• 为业务团队提供数据分析工具和自助服务平台
+• 指导初级工程师，进行代码审查和技术分享
+
+技术栈: Python, PySpark, Kafka, MySQL, Azure Data Factory
+
+项目经验
+
+实时用户行为分析平台
+• 项目描述: 构建支持实时用户行为分析的平台，为产品团队提供即时洞察
+• 技术实现: 使用Python Flask构建API，Kafka处理实时数据流，ClickHouse存储
+• 成果: 支持500万日活用户，查询响应时间<2秒，数据延迟<1分钟
+• 个人贡献: 主导架构设计，实现核心数据处理模块
+
+电商推荐系统数据管道
+• 项目描述: 为电商平台构建个性化推荐系统的数据基础设施
+• 技术实现: Airflow调度ETL任务，特征工程使用Pandas和NumPy
+• 成果: 推荐准确率提升15%，数据处理吞吐量达到10万条/秒
+• 个人贡献: 设计数据模型，优化特征计算性能
+
+教育背景
+[学位名称] in [专业名称]
+[大学名称] | [城市] | [毕业年月]
+
+相关课程: 数据结构与算法、数据库系统、机器学习、分布式系统
+毕业论文: [论文题目，如涉及数据工程相关内容]
+
+认证和培训
+• AWS Certified Data Analytics - Specialty (2024)
+• Google Cloud Professional Data Engineer (2023)
+• Python for Data Science and Machine Learning Bootcamp
+• Apache Spark and Python for Big Data Analytics
+
+个人项目
+开源贡献:
+- 贡献者: Apache Airflow / Pandas社区
+- 个人项目: 数据质量监控工具（GitHub: 50+ stars）
+
+技术博客:
+- 定期在个人博客/Medium分享数据工程最佳实践
+- 主题包括: ETL优化、数据管道监控、Python性能调优

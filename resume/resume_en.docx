@@ -1,0 +1,96 @@
+Python Data Engineer Resume Template - Germany Job Market
+
+PERSONAL INFORMATION
+[Your Full Name]
+Python Data Engineer
+
+Email: your.email@example.com
+Phone: +86 138-XXXX-XXXX
+Location: [Current City], [Country]
+LinkedIn: linkedin.com/in/yourprofile
+GitHub: github.com/yourusername
+
+Language Proficiency:
+- Chinese: Native
+- English: Fluent (IELTS 7.5 / TOEFL 105)
+- German: Basic (A1/A2 level, actively learning)
+
+PROFESSIONAL SUMMARY
+Experienced Python Data Engineer with [X] years of expertise in building scalable data pipelines and ETL systems. Proficient in Python ecosystem (Pandas, NumPy, PySpark) for processing large-scale datasets. Hands-on experience with AWS/Azure cloud platforms, data warehouse design, and machine learning workflows. Seeking Data Engineer position in German tech companies to contribute to data-driven decision making.
+
+TECHNICAL SKILLS
+Programming Languages:
+- Python (Advanced) - Pandas, NumPy, Scikit-learn, TensorFlow
+- SQL (Advanced) - Complex query optimization, stored procedures
+- Bash/Shell (Intermediate) - Automation scripting
+
+Data Engineering Tools:
+- ETL/ELT: Apache Airflow, Luigi, dbt
+- Big Data: Apache Spark, Hadoop, Hive
+- Databases: PostgreSQL, MySQL, MongoDB, Redis
+
+Cloud Platforms:
+- AWS: S3, Redshift, Glue, Lambda, EMR
+- Azure: Data Factory, Synapse Analytics, Databricks
+- Containerization: Docker, Kubernetes
+
+Development Tools:
+- Version Control: Git, GitHub/GitLab
+- Project Management: Jira, Confluence
+- Monitoring: Grafana, Prometheus
+
+WORK EXPERIENCE
+
+Senior Data Engineer | [Current Company] | [City] | [Start Date] - Present
+• Designed and implemented scalable data pipelines processing 1TB+ daily data to support business decisions
+• Developed ETL workflows using Python and Apache Airflow, improving data processing efficiency by 40%
+• Built data warehouse solutions integrating multiple data sources for unified data views
+• Collaborated with data scientists to deploy machine learning models to production
+• Optimized SQL queries, reducing report generation time from hours to minutes
+
+Tech Stack: Python, Pandas, Airflow, PostgreSQL, AWS Redshift, Docker
+
+Data Engineer | [Previous Company] | [City] | [Start Date] - [End Date]
+• Responsible for building and maintaining company's core data infrastructure
+• Developed real-time data streaming systems using Kafka and Spark Streaming
+• Implemented data quality monitoring framework ensuring data accuracy and integrity
+• Provided data analysis tools and self-service platforms for business teams
+• Mentored junior engineers and conducted code reviews and technical sharing sessions
+
+Tech Stack: Python, PySpark, Kafka, MySQL, Azure Data Factory
+
+PROJECT EXPERIENCE
+
+Real-time User Behavior Analytics Platform
+• Project Description: Built platform supporting real-time user behavior analytics for product teams
+• Technical Implementation: Python Flask API, Kafka for real-time streaming, ClickHouse storage
+• Results: Supported 5M+ daily active users, query response <2 seconds, data latency <1 minute
+• Personal Contribution: Led architecture design, implemented core data processing modules
+
+E-commerce Recommendation System Data Pipeline
+• Project Description: Built data infrastructure for personalized recommendation system
+• Technical Implementation: Airflow for ETL scheduling, feature engineering with Pandas and NumPy
+• Results: Improved recommendation accuracy by 15%, achieved 100k records/second throughput
+• Personal Contribution: Designed data models, optimized feature computation performance
+
+EDUCATION
+[Degree Name] in [Major Name]
+[University Name] | [City] | [Graduation Date]
+
+Relevant Courses: Data Structures & Algorithms, Database Systems, Machine Learning, Distributed Systems
+Thesis: [Thesis Title, if related to data engineering]
+
+CERTIFICATIONS & TRAINING
+• AWS Certified Data Analytics - Specialty (2024)
+• Google Cloud Professional Data Engineer (2023)
+• Python for Data Science and Machine Learning Bootcamp
+• Apache Spark and Python for Big Data Analytics
+
+PERSONAL PROJECTS
+Open Source Contributions:
+- Contributor: Apache Airflow / Pandas community
+- Personal Project: Data quality monitoring tool (GitHub: 50+ stars)
+
+Technical Blog:
+- Regular contributor to personal blog/Medium on data engineering best practices
+- Topics include: ETL optimization, data pipeline monitoring, Python performance tuning
