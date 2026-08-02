@@ -17,3 +17,6 @@ Thumbs.db
 *ghp_*
 *.env
 .env
+
+# Project local memory (not for remote)
+.workbuddy/
