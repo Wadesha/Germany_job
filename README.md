@@ -124,5 +124,16 @@ node generate_sample_resume.js   # 生成样例简历（含示例背景，便于
 - **简历生成**：Node.js + `docx` 库（`scripts/`）
 - **数据**：CSV / JSON / Excel
 
+## 🔗 关联项目
+
+**LinguaBridge — 多语种学习平台**（[GitHub 仓库](https://github.com/Wadesha/linguabridge)）
+
+支持英语、日语、韩语的沉浸式在线语言学习平台：分级课程体系（CEFR / JLPT / TOPIK）、单词记忆卡片、口语跟读、学习进度追踪与社区交流。求职过程中的语言能力提升，可与本项目配合使用。
+
+- 仓库：https://github.com/Wadesha/linguabridge
+- 在线体验（GitHub Pages）：https://wadesha.github.io/linguabridge/
+
+---
+
 ## 📦 仓库
 `Wadesha/Germany_job`（公开）
